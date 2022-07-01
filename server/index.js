@@ -15,6 +15,9 @@ app.use(bodyParser.json({ limit: '30mb', extended: true }));
 app.use(bodyParser.urlencoded({ limit: '30mb', extended: true }));
 app.use(cors());
 
+app.get('/', (req, res) => {
+    res.send(`<center><h1>Hello from server. </h1><h2> Use /posts and /users endpoint</h2></center>`);
+});
 app.use('/posts', postRoutes);
 app.use('/users', userRoutes);
 
