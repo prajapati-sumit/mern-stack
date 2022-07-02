@@ -34,4 +34,11 @@ User can create a new account or they can choose to signup with google.
 Authorised user can edit their post by clicking on three dots in the top right corner of their post.
 They can also choose to delete their post using delete icon.
 
-
+# References
+ 1. https://reactjs.org/docs/getting-started.html
+ 2. https://redux-toolkit.js.org/tutorials/quick-start
+ 3. https://mui.com/material-ui/getting-started/overview/
+ 4. https://mongoosejs.com/docs/guide.html
+ 5. https://jwt.io/
+ 6. https://firebase.google.com/docs
+ 7. https://nodejs.org/en/docs/
