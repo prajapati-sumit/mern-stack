@@ -1,7 +1,7 @@
 
 # Full Stack Project using MERN
 ## Introduction
-The [project](https://.herokuapp.com/) aims at implementing a full stack web application with dedicated server and client side.
+The [project](https://mern-sumit.netlify.app/) aims at implementing a full stack web application with dedicated server and client side.
 The server side responds in JSON format which makes the frontend scalable and flexible.
 
  - **React** with Material UI for Frontend.
@@ -10,6 +10,8 @@ The server side responds in JSON format which makes the frontend scalable and fl
  - **Node JS** for Backend. 
  - **MongoDB (Mongoose)** for Database.
  - **Git/Github** for version control.
+ - **Netlify** for [frontend](https://mern-sumit.netlify.app/) deployment
+ - **Heroku** for [backend](https://mern-sumit.herokuapp.com/) deployment
 
 ## Overview
 The application consists of a fully operational authentication system. The users can 
