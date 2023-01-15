@@ -1,5 +1,5 @@
 import axios from 'axios';
-const API = axios.create({ baseURL: 'http://localhost:5000' });
+const API = axios.create({ baseURL: 'https://mern-sumit.onrender.com' });
 
 API.interceptors.request.use((req) => {
     if (localStorage.getItem('userToken')) {
@@ -17,13 +17,13 @@ export const deletePost = (id) => API.delete(`posts/${id}`);
 export const likePost = (id) => API.patch(`posts/${id}/likePost`);
 
 export const signin = (data) =>
-    API.post('http://localhost:5000/users/signin', {
+    API.post('https://mern-sumit.onrender.com/users/signin', {
         email: data.email,
         password: data.password,
     });
 
 export const signup = (data) =>
-    API.post('http://localhost:5000/users/signup', {
+    API.post('https://mern-sumit.onrender.com/users/signup', {
         firstName: data.firstName,
         lastName: data.lastName,
         email: data.email,
